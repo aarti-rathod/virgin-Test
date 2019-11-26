@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="virgingames-bingo-task(failed)">
+    <classes>
+      <class name="com.virgingame.bingo.testsuite.VirginTest2">
+        <methods>
+          <include name="inIt"/>
+          <include name="verifyDefaultGameFrequency"/>
+        </methods>
+      </class> <!-- com.virgingame.bingo.testsuite.VirginTest2 -->
+    </classes>
+  </test> <!-- virgingames-bingo-task(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
